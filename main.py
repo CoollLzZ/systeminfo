@@ -24,8 +24,8 @@ def info_gen(day, sr):
 # Todo: Creating function for pushing data-file into Public repo
 def git_push(date, sr):
     """This function needs some args: date=today's date and sr=serial number"""
-    command = "git config --global --add safe.directory 'systeminfo'"
-    subprocess.run(command, shell=True)
+    #command = "git config --global --add safe.directory 'systeminfo'"
+    #subprocess.run(command, shell=True)
     command = "git add ."
     subprocess.run(command, shell=True)
     command = f'git commit -m "Pushing info on {date} for serial number:{sr}"'
