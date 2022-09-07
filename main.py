@@ -2,6 +2,8 @@ import datetime
 import os
 import subprocess
 
+GIT_URL = "https://github.com/CoollLzZ/systeminfo.git"
+
 
 # Todo: Creating function for generating data file
 def info_gen(day, sr):
@@ -17,6 +19,19 @@ def info_gen(day, sr):
         info.write("--------------------------------------Installed Software's-----------------------------------\n")
         info.write("---------------------------------------------------------------------------------------------\n\n")
         info.write(Installed_Software)
+
+
+# Todo: Creating function for pushing data-file into Public repo
+def git_push(date, sr):
+    """This function needs some args: date=today's date and sr=serial number"""
+    command = "git config --global --add safe.directory 'systeminfo'"
+    subprocess.run(command, shell=True)
+    command = "git add ."
+    subprocess.run(command, shell=True)
+    command = f'git commit -m "Pushing info on {date} for serial number:{sr}"'
+    subprocess.run(command, shell=True)
+    command = "git add ."
+    subprocess.run(command, shell=True)
 
 
 # Todo: Getting Current date
@@ -50,3 +65,7 @@ else:
     cmd = f"mkdir Data\{SR_number}"
     folder = subprocess.run(cmd, shell=True)
     info_gen(day=today, sr=SR_number)
+
+# Todo: Pushing the data file on remote repository.
+git_push(date=today, sr=SR_number)
+print(f"Push Successful for sr:{SR_number}")
