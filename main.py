@@ -2,6 +2,7 @@ import datetime
 import os
 import subprocess
 
+
 GIT_URL = "https://github.com/CoollLzZ/systeminfo.git"
 
 
@@ -19,6 +20,10 @@ def info_gen(day, sr):
         info.write("--------------------------------------Installed Software's-----------------------------------\n")
         info.write("---------------------------------------------------------------------------------------------\n\n")
         info.write(Installed_Software)
+        info.write("---------------------------------------------------------------------------------------------\n")
+        info.write("--------------------------------------Windows Activation-----------------------------------\n")
+        info.write("---------------------------------------------------------------------------------------------\n\n")
+
 
 
 # Todo: Creating function for pushing data-file into Public repo
@@ -74,6 +79,19 @@ else:
     folder = subprocess.run(cmd, shell=True)
     info_gen(day=today, sr=SR_number)
 
+# Todo: Checking for the windows is activated or not.
+cmd = 'cscript slmgr.vbs -xpr | findstr -i activate'
+output = subprocess.Popen(cmd, shell=True, cwd="C:\Windows\System32", stdout=subprocess.PIPE)
+out, err = output.communicate()
+out = str(out[3:-1])
+out = out[3:-3]
+
 # Todo: Pushing the data file on remote repository.
 git_push(date=today, sr=SR_number)
 print(f"Push Successful for sr:{SR_number}")
+
+
+if "The machine is permanently activated." in out:
+    print("Windows is activated")
+else:
+    print("Windows is not activated")
