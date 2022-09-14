@@ -26,7 +26,7 @@ def info_gen(day, sr):
         if "The machine is permanently activated." in out:
             info.write("Windows is activated")
         else:
-            info.write("Windows is not activated")
+            info.write("Windows is not activated.")
 
 
 # Todo: Creating function for pushing data-file into Public repo
