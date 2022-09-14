@@ -29,10 +29,10 @@ System Locale:             en-us;English (United States)
 Input Locale:              00004009
 Time Zone:                 (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi
 Total Physical Memory:     7,953 MB
-Available Physical Memory: 1,107 MB
+Available Physical Memory: 1,022 MB
 Virtual Memory: Max Size:  15,848 MB
-Virtual Memory: Available: 2,678 MB
-Virtual Memory: In Use:    13,170 MB
+Virtual Memory: Available: 2,672 MB
+Virtual Memory: In Use:    13,176 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    WORKGROUP
 Logon Server:              \\DESKTOP-70QA4QJ
@@ -163,4 +163,5 @@ InstallDate  Name                                                               
 --------------------------------------Windows Activation-----------------------------------
 ---------------------------------------------------------------------------------------------
 
-The machine is permanently activated.Windows is activated
+The machine is permanently activated.
+Windows is activated

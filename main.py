@@ -22,11 +22,12 @@ def info_gen(day, sr):
         info.write("---------------------------------------------------------------------------------------------\n")
         info.write("--------------------------------------Windows Activation-----------------------------------\n")
         info.write("---------------------------------------------------------------------------------------------\n\n")
-        info.write(out)
+        info.write(out + "\n")
         if "The machine is permanently activated." in out:
             info.write("Windows is activated")
         else:
             info.write("Windows is not activated")
+
 
 # Todo: Creating function for pushing data-file into Public repo
 def git_push(date, sr):
@@ -66,7 +67,6 @@ systemInfo = os.popen(cmd).read()
 cmd = "wmic product get Name, Version, InstallDate"
 Installed_Software = os.popen(cmd).read()
 
-
 # Todo: Checking for the windows is activated or not.
 cmd = 'cscript slmgr.vbs -xpr | findstr -i activate'
 output = subprocess.Popen(cmd, shell=True, cwd="C:\Windows\System32", stdout=subprocess.PIPE)
@@ -92,5 +92,3 @@ else:
 # Todo: Pushing the data file on remote repository.
 git_push(date=today, sr=SR_number)
 print(f"Push Successful for sr:{SR_number}")
-
-
