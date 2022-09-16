@@ -8,7 +8,8 @@ Collecting users M/C information such like **Hardware & OS Information, Installe
 >- In case the script modified accidentally, copy the default script from backup directory.
 
 ## Prerequisites
-It is very important to fulfill the necessary dependencies to be satisfied before execution. 
+It is very important to fulfill the necessary dependencies to be satisfied before execution.
+> ***
 >**Git cmd**
 >
 > ****
@@ -20,15 +21,17 @@ It is very important to fulfill the necessary dependencies to be satisfied befor
 > ****
 
 ## Steps
-After satisfying the prerequisites completely, Follow the the below steps to execute the scripts.
-> 1. Open your command prompt in Administrator mode.
+After satisfying the prerequisites completely, Follow the below steps to execute the scripts.
+> 1. Open your command prompt in Administrator mode. 
 > 2. Open git bash and pull the code from **"systeminfo"** repository.
-> 3. Goto **"systeminfo"** directory and run _main.py_ file.
-> 4. Use the following command to execute _main.py_
+> 3. Open Command Prompt in Administrator mode.
+> 4. Navigate to **"systeminfo"** directory and run _main.py_ file.
+> 5. Use the following command to execute _main.py_
 >> C:\Windows\system32> _main.py_
 >
 > Remember...! Do not use git bash or powershell for running script.
-> Always use Administrator command prompt, Because the script is using some commands which only executes with Admin privileged.  
+> Always use Administrator command prompt, Because the script is using 
+> some commands which only executes with Admin privileged cmd.  
 
 
 
