@@ -15,7 +15,7 @@ Registered Owner:          Mohit Kamble
 Registered Organization:   
 Product ID:                00330-80000-00000-AA191
 Original Install Date:     02-09-2022, 07:28:49 AM
-System Boot Time:          15-09-2022, 09:03:05 AM
+System Boot Time:          15-09-2022, 09:03:04 AM
 System Manufacturer:       Dell Inc.
 System Model:              Latitude 3410
 System Type:               x64-based PC
@@ -29,10 +29,10 @@ System Locale:             en-us;English (United States)
 Input Locale:              00004009
 Time Zone:                 (UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi
 Total Physical Memory:     7,953 MB
-Available Physical Memory: 1,194 MB
+Available Physical Memory: 2,660 MB
 Virtual Memory: Max Size:  13,329 MB
-Virtual Memory: Available: 3,775 MB
-Virtual Memory: In Use:    9,554 MB
+Virtual Memory: Available: 3,883 MB
+Virtual Memory: In Use:    9,446 MB
 Page File Location(s):     C:\pagefile.sys
 Domain:                    WORKGROUP
 Logon Server:              \\DESKTOP-70QA4QJ

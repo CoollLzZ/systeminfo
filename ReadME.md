@@ -4,8 +4,8 @@ Collecting users M/C information such like **Hardware & OS Information, Installe
 
 >-  Alteration in the code leads to script fails during execution.
 >- Sensitive information like MAC, IP's using for Minutus Purpose.
->- Before proceeding to run this script please go through the Prerequisites section.
 >- In case the script modified accidentally, copy the default script from backup directory.
+>- Before proceeding to run this script please go through the Prerequisites section.
 
 ## Prerequisites
 It is very important to fulfill the necessary dependencies to be satisfied before execution.
