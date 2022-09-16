@@ -29,7 +29,7 @@ After satisfying the prerequisites completely, Follow the below steps to execute
 > 4. Open Command Prompt in Administrator mode.
 > 5. Navigate to **"systeminfo"** directory and run _main.py_ file.
 > 6. Use the following command to execute _main.py_
->> C:\Windows\system32> _main.py_
+>> D:\powershell scripts\systeminfo> _main.py_
 >
 > Remember...! Do not use git bash or powershell for running script.
 > Use Git Bash to clone the code from the remote repository.
