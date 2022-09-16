@@ -22,7 +22,7 @@ It is very important to fulfill the necessary dependencies to be satisfied befor
 
 ## Steps
 After satisfying the prerequisites completely, Follow the below steps to execute script.
-> 1. Open your command prompt in Administrator mode.
+> 1. Open your Git bash in Administrator mode.
 > 2. Navigate to your directory using git bash.
 > 3. Use the  https url and clone the codefrom **"systeminfo"** repository.
   >> https://github.com/CoollLzZ/systeminfo.git
