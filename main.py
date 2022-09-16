@@ -24,7 +24,7 @@ def info_gen(day, sr):
         info.write("--------------------------------------Windows Activation-----------------------------------\n")
         info.write("---------------------------------------------------------------------------------------------\n\n")
         info.write(out + "\n")
-        if "The machine is permanently activated." in out:
+        if "This machine is permanently activated." in out:
             info.write("Windows is activated")
         else:
             info.write("Windows is not activated.")

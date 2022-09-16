@@ -10,23 +10,25 @@ Collecting users M/C information such like **Hardware & OS Information, Installe
 ## Prerequisites
 It is very important to fulfill the necessary dependencies to be satisfied before execution.
 > ***
->**Git cmd**
+>- **Git cmd**
 >
 > ****
->**Python Interpreter 3.6 or higher**
+>- **Python Interpreter 3.6 or higher**
 > 
 > ****
->**Windows Command Prompt Administrator** 
+>- **Windows Command Prompt Administrator** 
 >
 > ****
 
 ## Steps
-After satisfying the prerequisites completely, Follow the below steps to execute the scripts.
-> 1. Open your command prompt in Administrator mode. 
-> 2. Open git bash and pull the code from **"systeminfo"** repository.
-> 3. Open Command Prompt in Administrator mode.
-> 4. Navigate to **"systeminfo"** directory and run _main.py_ file.
-> 5. Use the following command to execute _main.py_
+After satisfying the prerequisites completely, Follow the below steps to execute script.
+> 1. Open your command prompt in Administrator mode.
+> 2. Navigate to your directory using git bash.
+> 3. Use the  https url and clone the codefrom **"systeminfo"** repository.
+  >> https://github.com/CoollLzZ/systeminfo.git
+> 4. Open Command Prompt in Administrator mode.
+> 5. Navigate to **"systeminfo"** directory and run _main.py_ file.
+> 6. Use the following command to execute _main.py_
 >> C:\Windows\system32> _main.py_
 >
 > Remember...! Do not use git bash or powershell for running script.
