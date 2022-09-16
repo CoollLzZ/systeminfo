@@ -32,9 +32,7 @@ After satisfying the prerequisites completely, Follow the below steps to execute
 >> C:\Windows\system32> _main.py_
 >
 > Remember...! Do not use git bash or powershell for running script.
-> Always use Administrator command prompt, Because the script is using 
-> some commands which only executes with Admin privileged cmd.  
-
-
-
+> Use Git Bash to clone the code from the remote repository.
+> Always use administrator command prompt to run script, Because the script is using 
+> some commands which only executes with command prompt.  
 
