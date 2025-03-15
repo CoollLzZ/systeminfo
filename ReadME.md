@@ -3,7 +3,7 @@
 Collecting users Machine (VM) information such like **Hardware & OS Information, Installed software, version, date, etc** and saving in the unique directory of the particular serial number in the file with today's date and serial number associated with it.
 
 >-  Alteration in the code leads to script fails during execution.
->- Sensitive information like MAC, IP's using for Minutus Purpose.
+>- Sensitive information like MAC, IP's using for GenAI Purpose.
 >- In case the script modified accidentally, copy the default script from backup directory.
 >- Before proceeding to run this script please go through the Prerequisites section.
 
