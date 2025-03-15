@@ -1,6 +1,6 @@
 ## Description
 
-Collecting users M/C information such like **Hardware & OS Information, Installed software, version, date, etc** and saving in the unique directory of the particular serial number in the file with today's date and serial number associated with it.
+Collecting users Machine (VM) information such like **Hardware & OS Information, Installed software, version, date, etc** and saving in the unique directory of the particular serial number in the file with today's date and serial number associated with it.
 
 >-  Alteration in the code leads to script fails during execution.
 >- Sensitive information like MAC, IP's using for Minutus Purpose.
